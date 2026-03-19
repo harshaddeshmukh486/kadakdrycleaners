@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kadak Dry Cleaners</title>
+
+<style>
+
+body{
+font-family:Arial;
+margin:0;
+background:#f2f2f2;
+}
+
+/* LOADER */
+
+#loader{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:#0f172a;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+z-index:9999;
+}
+
+#loader h1{
+font-size:32px;
+margin-bottom:10px;
+}
+
+#loader p{
+color:#9ca3af;
+}
+
+/* HEADER */
+
+header{
+background:black;
+color:white;
+text-align:center;
+padding:20px;
+font-size:28px;
+font-weight:bold;
+}
+
+/* SLIDER */
+
+
+.slider img{
+width:100%;
+height:auto;
+max-height:320px;
+object-fit:contain;
+background:black;
+}
+/* CONTAINER */
+
+.container{
+padding:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:12px;
+margin-bottom:20px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* SERVICES */
+
+.services{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:15px;
+}
+
+.service-box{
+background:#f5f5f5;
+padding:20px;
+border-radius:10px;
+text-align:center;
+font-weight:bold;
+transition:0.3s;
+}
+
+.service-box:hover{
+transform:translateY(-5px);
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* DELIVERY */
+
+.delivery{
+background:#fff3cd;
+padding:15px;
+border-radius:10px;
+text-align:center;
+font-weight:bold;
+}
+
+/* TABLE */
+
+table{
+width:100%;
+border-collapse:collapse;
+}
+
+th{
+background:black;
+color:white;
+padding:10px;
+}
+
+td{
+padding:12px;
+border-bottom:1px solid #ddd;
+}
+
+/* FORM */
+
+input,select,textarea{
+width:100%;
+padding:12px;
+margin-top:10px;
+border-radius:8px;
+border:1px solid #ccc;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:10px;
+background:#25D366;
+color:white;
+border:none;
+border-radius:10px;
+font-size:18px;
+}
+
+/* MAP */
+
+.map{
+width:100%;
+height:250px;
+border-radius:10px;
+border:0;
+}
+
+/* CALL BUTTON */
+
+.call{
+background:black;
+color:white;
+text-align:center;
+padding:15px;
+border-radius:10px;
+margin-top:10px;
+font-size:18px;
+}
+
+/* WHATSAPP FLOAT */
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 20px;
+border-radius:30px;
+font-weight:bold;
+text-decoration:none;
+}
+
+/* REVIEW */
+
+.review{
+background:white;
+padding:12px;
+border-radius:10px;
+margin-top:10px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#0f172a;
+color:white;
+text-align:center;
+padding:18px;
+font-size:14px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div id="loader">
+
+<h1>Kadak Dry Cleaners</h1>
+<p>Website Developed by Harshad Deshmukh</p>
+
+</div>
+
+<header>
+Kadak Dry Cleaners
+</header>
+
+<!-- SLIDER -->
+
+<div class="slider">
+<img id="slide" src="mainbanner.jpg">
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Our Services</h2>
+
+<div class="services">
+
+<div class="service-box">🧺 Dry Cleaning</div>
+<div class="service-box">♨️ Steam Press</div>
+<div class="service-box">👔 Roll Press</div>
+<div class="service-box">🧼 Laundry</div>
+<div class="service-box">🪟 Curtain Cleaning</div>
+<div class="service-box">🛏 Blanket Wash</div>
+<div class="service-box">👟 Shoes Spa</div>
+<div class="service-box">🧽 Carpet Cleaning</div>
+
+</div>
+
+</div>
+
+<div class="card">
+
+<h2>Customer Reviews</h2>
+
+<div class="review">⭐⭐⭐⭐⭐ Best Dry Cleaning Service in Shembalpimpri.</div>
+
+<div class="review">⭐⭐⭐⭐⭐ Clothes cleaning quality is very good.</div>
+
+<div class="review">⭐⭐⭐⭐⭐ Fast service and affordable price.</div>
+
+</div>
+
+<div class="delivery">
+
+🚚 Home delivery available,pickup and drop <br>
+(Extra Charges Apply) <br><br>
+
+Delivery only nearby shembalpimpri <br>
+Minimum 20+ clothes required
+
+</div>
+
+<div class="card">
+
+<h2>Price List</h2>
+
+<table>
+
+<tr>
+<th>Service</th>
+<th>Price</th>
+</tr>
+
+<tr><td>Single Shirt / Pant</td><td>₹40</td></tr>
+<tr><td>Shirt & Pant Set</td><td>₹80</td></tr>
+<tr><td>T Shirt</td><td>₹40</td></tr>
+<tr><td>Kurta / Dhoti</td><td>₹100</td></tr>
+<tr><td>Saree Dry Clean</td><td>₹150</td></tr>
+<tr><td>Saree Roll Press</td><td>₹120</td></tr>
+<tr><td>Saree Steam Press</td><td>₹100</td></tr>
+<tr><td>Blouse</td><td>₹30</td></tr>
+<tr><td>Jacket / Sweater</td><td>₹100</td></tr>
+<tr><td>Single Coat</td><td>₹200</td></tr>
+<tr><td>Coat Pant Set</td><td>₹400</td></tr>
+<tr><td>Sherwani</td><td>₹400</td></tr>
+<tr><td>Blanket</td><td>₹300-₹400</td></tr>
+<tr><td>Bedsheet</td><td>₹40</td></tr>
+<tr><td>Curtain</td><td>₹60</td></tr>
+
+</table>
+
+</div>
+
+<div class="card">
+
+<h2>Owner</h2>
+
+<img src="owner.jpg" style="width:100%;border-radius:10px;">
+
+<h3>Nagesh Deshmukh</h3>
++91 96075 45802
+
+</div>
+
+<div class="card">
+
+<h2>Our Shop Facility</h2>
+
+<img src="mainbanner.jpg" style="width:100%;border-radius:10px;">
+
+<h2>Shop</h2>
+
+<img src="shop.jpg" style="width:100%;border-radius:10px;">
+
+</div>
+
+<div class="card">
+
+<h2>Place Order</h2>
+
+<input id="name" placeholder="Your Name">
+
+<input id="phone" placeholder="Phone Number">
+
+<select id="service">
+<option>Dry Cleaning</option>
+<option>Steam Press</option>
+<option>Laundry</option>
+<option>Shoes Cleaning</option>
+</select>
+
+<textarea id="details" placeholder="Clothes Details"></textarea>
+
+<button onclick="sendOrder()">Send Order on WhatsApp</button>
+
+</div>
+
+<div class="card">
+
+<h2>Location</h2>
+
+Pawar complex,shembalpimpri<br>
+main road pusad
+
+<iframe class="map"
+src="https://www.google.com/maps?q=Pawar%20Complex%20Shembal%20Pimpri%20Yavatmal&output=embed">
+</iframe>
+
+<a href="https://www.google.com/maps/search/?api=1&query=Pawar+Complex+Shembal+Pimpri+Yavatmal" target="_blank">
+
+<div class="call">📍 Open in Maps</div>
+
+</a>
+
+<a href="tel:9607545802">
+
+<div class="call">📞 Call Now</div>
+
+</a>
+
+</div>
+
+</div>
+
+<a class="whatsapp"
+href="https://wa.me/919607545802">
+WhatsApp
+</a>
+
+<script>
+
+/* LOADER */
+
+window.addEventListener("load",function(){
+setTimeout(function(){
+document.getElementById("loader").style.display="none";
+},1000)
+})
+
+/* WHATSAPP ORDER */
+
+function sendOrder(){
+
+let name=document.getElementById("name").value
+let phone=document.getElementById("phone").value
+let service=document.getElementById("service").value
+let details=document.getElementById("details").value
+
+let message="New Order%0A%0A"
++"Name: "+name+"%0A"
++"Phone: "+phone+"%0A"
++"Service: "+service+"%0A"
++"Details: "+details
+
+window.open("https://wa.me/919607545802?text="+message)
+
+}
+
+/* IMAGE SLIDER */
+
+let images=[
+"mainbanner.jpg",
+"shop.jpg",
+"owner.jpg"
+]
+
+let i=0
+
+setInterval(function(){
+
+i++
+
+if(i>=images.length){
+i=0
+}
+
+document.getElementById("slide").src=images[i]
+
+},3000)
+
+</script>
+
+<footer>
+
+Developed by <b>Harshad Deshmukh</b><br>
+📞 7721874569 | Premium Website Developer
+
+</footer>
+
+</body>
+</html>
